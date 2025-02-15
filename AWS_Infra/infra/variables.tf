@@ -17,3 +17,8 @@ variable "private_subnet_id" {
   description = "Private subnet ID"
   type        = string
 }
+
+variable "region" {
+  description = "AWS Region"
+  type        = string
+}
